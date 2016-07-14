@@ -17,9 +17,14 @@
      - Hierarchy not great for defining the sections, and the sections are very big.
      - Sections should be clickable. 
      - Showing team members is great way to personalize the site and experience.
+     - Pictures too big, fonts too small
 
 3. Avon
      - Nav bar at top, good location. 
      - Hover on picture to see the price. That is very effective. Shows that it is clickable and will take you to the correct spot for purchase. 
      - Maybe should not mix in random pictures with the clickable, shopping pics however. Also this feature might be better served if it was consistent on the whole page.
      - About is on the main page and not separated.  
+
+4. Daisy Blue
+     - Love the separation at the top of the two nav bars.
+     - Clean organized layout, not too many words or pictures and not too much scrolling involved.
