@@ -108,17 +108,24 @@
 
 .header-bottom {
   background-color: #9CCDD5;
-  height: 3em;
+  height: 5em;
   font-family: "Helvetica Neue";
-  text-align: center; }
+  text-align: center;
+  padding: 0em 0em 0em 1em; }
   .header-bottom a {
     color: #514B4D;
     display: inline-block;
     list-style-type: none;
-    padding: 0em 1.5em 0em 0em;
+    padding: 0em 1.5em 0.5em 0em;
     text-decoration: none; }
   .header-bottom a:hover {
     color: white; }
+  @media (min-width: 900px) {
+    .header-bottom {
+      height: 3em;
+      padding: 0em 0em 0em 0em; }
+      .header-bottom a {
+        padding: 0em 1.5em 0em 0em; } }
 
 .subheader-links {
   margin: 0 auto;
@@ -138,11 +145,31 @@
     margin: 0em 1.2em 0em 1.2em; }
 
 .pic-link-size {
-  width: 29%; }
+  width: 53%;
+  padding: 1em 0em 0em 0em; }
+  @media (min-width: 600px) {
+    .pic-link-size {
+      width: 33%;
+      padding: 0em; } }
+  @media (min-width: 1100px) {
+    .pic-link-size {
+      width: 29%; } }
+
+.pic-link-bottom {
+  width: 49%;
+  padding: 1em 0em 0em 0em; }
+  @media (min-width: 600px) {
+    .pic-link-bottom {
+      width: 33%; } }
+  @media (min-width: 1100px) {
+    .pic-link-bottom {
+      width: 29%;
+      padding: 0em; } }
 
 .who-wrap {
   margin: 5em auto;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1); }
 
 .who-pic {
   width: 100%; }
@@ -155,7 +182,13 @@
 .footer-links-wrap {
   overflow: hidden;
   padding: 0em 0em 0em 6em;
-  float: left; }
+  font-size: 80%; }
+  @media (min-width: 600px) {
+    .footer-links-wrap {
+      float: left; } }
+  @media (min-width: 1100px) {
+    .footer-links-wrap {
+      font-size: 1em; } }
   .footer-links-wrap a {
     text-decoration: none;
     color: #514B4D; }
@@ -172,8 +205,10 @@
   float: left; }
 
 .footer-social-wrap {
-  padding: 1em 0em 0em 0em;
-  float: right; }
+  padding: 1em 0em 0em 0em; }
+  @media (min-width: 600px) {
+    .footer-social-wrap {
+      float: right; } }
 
 .social-links {
   text-align: center; }
@@ -202,11 +237,13 @@
   display: inline-block; }
 
 .step-sizing {
+  padding: 0em 0em 0em 2.5em;
   width: 67%;
   transition: all .2s ease-in-out; }
   @media (min-width: 600px) {
     .step-sizing {
-      width: 97%; } }
+      width: 97%;
+      padding: 0em; } }
   @media (min-width: 900px) {
     .step-sizing {
       width: 99%; } }

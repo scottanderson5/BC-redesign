@@ -1837,7 +1837,8 @@ a.btn {
 
     #slides a:hover,
     #slides a:active {
-      color: #9e2020
+      /*color: #9e2020*/
+      color: white;
     }
 
     .navbar {
@@ -1856,7 +1857,7 @@ a.btn {
     @media (max-width: 767px) {
       body {
         padding-left: 20px;
-        padding-right: 20px;
+        /*padding-right: 20px;*/
       }
       .container {
         width: auto;
