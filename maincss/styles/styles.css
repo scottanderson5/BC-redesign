@@ -200,4 +200,20 @@
 .new-pics {
   display: inline-block; }
 
+.step-sizing {
+  width: 67%;
+  transition: all .2s ease-in-out; }
+  @media (min-width: 600px) {
+    .step-sizing {
+      width: 97%; } }
+  @media (min-width: 900px) {
+    .step-sizing {
+      width: 99%; } }
+
+.step-sizing:hover {
+  transform: scale(1.1); }
+  @media (min-width: 900px) {
+    .step-sizing:hover {
+      transform: scale(1.1); } }
+
 /*# sourceMappingURL=styles.css.map */
