@@ -83,6 +83,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 	
 }
 
+/*************** LANDING PAGE *******************/
+
 
 //Top Header
 
@@ -188,9 +190,10 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 //Footer
 
+
 .footer{
 	background-color: #64B1BB;
-	padding: 2.5em 0.5em 2.5em 0.5em;
+	padding: 2.5em 0.5em 2.2em 0.5em;
 	overflow: hidden;
 }
 
@@ -227,7 +230,6 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 }
 
 .social-links{	
-	padding: 0em 0em 0em 0em;
 	text-align: center;
 	
 	a{
@@ -242,6 +244,26 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 		color: white;
 	}
 
+}
+
+/*************** WHAT'S NEW PAGE *******************/
+
+
+.page-title{
+	margin: 1em auto;
+	text-align: center;
+	font-size: 3em;
+	font-family: "American Typewriter";
+}
+
+.new-pics-wrap{
+	overflow: hidden;
+	text-align: center;
+	margin: 0em 0em 3em 0em;
+}
+
+.new-pics{
+	display: inline-block;
 }
 
 
