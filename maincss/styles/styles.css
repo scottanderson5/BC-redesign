@@ -155,6 +155,9 @@
     .pic-link-size {
       width: 29%; } }
 
+.pic-link-size:hover {
+  background-color: gray; }
+
 .pic-link-bottom {
   width: 49%;
   padding: 1em 0em 0em 0em; }
@@ -165,6 +168,18 @@
     .pic-link-bottom {
       width: 29%;
       padding: 0em; } }
+
+.desaturate {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: url(/elements/grayscale.svg#desaturate);
+  filter: gray;
+  -webkit-filter: grayscale(1); }
+
+.desaturate:hover {
+  filter: grayscale(0%);
+  filter: none;
+  -webkit-filter: grayscale(0); }
 
 .who-wrap {
   margin: 5em auto;
@@ -222,6 +237,15 @@
     color: white; }
 
 /*************** WHAT'S NEW PAGE *******************/
+.bag {
+  float: right;
+  font-size: 1.3em;
+  padding: 1em 0em 0em 0em; }
+  .bag a {
+    color: black; }
+  .bag a:hover {
+    color: black; }
+
 .page-title {
   margin: 1em auto;
   text-align: center;

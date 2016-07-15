@@ -197,6 +197,10 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 	}
 }
 
+.pic-link-size:hover{
+	background-color: gray;
+}
+
 .pic-link-bottom{
 	width: 49%;
 	padding: 1em 0em 0em 0em;
@@ -210,6 +214,23 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 		padding: 0em;
 	}
 }
+
+.desaturate {
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
+    filter: url(/elements/grayscale.svg#desaturate); 
+    filter: gray;  
+    -webkit-filter: grayscale(1); 
+}
+
+.desaturate:hover {
+    filter: grayscale(0%);
+    filter: none;
+    -webkit-filter: grayscale(0); 
+}
+
+
+
 
 //WHO section
 
@@ -296,6 +317,23 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 /*************** WHAT'S NEW PAGE *******************/
 
+//Bag Icon
+
+.bag{
+	float: right;
+	font-size: 1.3em;
+	padding: 1em 0em 0em 0em;
+
+	a{
+		color: black;
+	}
+
+	a:hover{
+		color: black;
+	}
+}
+
+//Page Title
 
 .page-title{
 	margin: 1em auto;
