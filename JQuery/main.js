@@ -1,5 +1,6 @@
 //Slides 
 
+
 $(function() {
       $('#slides').slidesjs({
         width: 940,
@@ -11,4 +12,4 @@ $(function() {
           swap: true
         }
       });
-});
+    });
