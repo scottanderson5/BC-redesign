@@ -150,5 +150,41 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 	width: 29%;
 }
 
+//WHO section
+
+.who-wrap{
+	margin: 5em auto;
+	overflow: hidden;
+}
+
+.who-pic{
+	width: 100%;
+}
+
+
+//Footer
+
+.footer{
+	background-color: #64B1BB;
+	padding: 0.5em 0em 0.5em 0em;
+	height: 6em;
+	overflow: hidden;
+}
+
+.left-footer-links{
+	float: left;
+
+	li{
+		list-style-type: none;
+	}
+}
+
+.right-foooter-links{
+	float: right;
+
+	li{
+		list-style-type: none;
+	}
+}
 
 

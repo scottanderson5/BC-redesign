@@ -123,4 +123,27 @@
 .pic-link-size {
   width: 29%; }
 
+.who-wrap {
+  margin: 5em auto;
+  overflow: hidden; }
+
+.who-pic {
+  width: 100%; }
+
+.footer {
+  background-color: #64B1BB;
+  padding: 0.5em 0em 0.5em 0em;
+  height: 6em;
+  overflow: hidden; }
+
+.left-footer-links {
+  float: left; }
+  .left-footer-links li {
+    list-style-type: none; }
+
+.right-foooter-links {
+  float: right; }
+  .right-foooter-links li {
+    list-style-type: none; }
+
 /*# sourceMappingURL=styles.css.map */
