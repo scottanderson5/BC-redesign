@@ -166,25 +166,38 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 .footer{
 	background-color: #64B1BB;
-	padding: 0.5em 0em 0.5em 0em;
-	height: 6em;
+	padding: 2.5em 0.5em 2.5em 0.5em;
 	overflow: hidden;
+}
+
+.footer-links-wrap{
+	overflow: hidden;
+	padding: 0em 0em 0em 2em;
+
+	a{
+		text-decoration: none;
+		color: #514B4D;
+	}
+
+	a:hover{
+		color: white;
+	}
+
+	li{
+		list-style-type: none;
+		padding: 0em 0em 0.3em 2em;
+	}
 }
 
 .left-footer-links{
 	float: left;
-
-	li{
-		list-style-type: none;
-	}
+	//background-color: yellow;
 }
 
-.right-foooter-links{
-	float: right;
-
-	li{
-		list-style-type: none;
-	}
+.right-footer-links{
+	float: left;
+	//background-color: orange;
 }
+
 
 
