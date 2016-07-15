@@ -194,9 +194,13 @@
   padding: 2.5em 0.5em 2.2em 0.5em;
   overflow: hidden; }
 
+.footer-wrap {
+  overflow: hidden;
+  margin: 0 auto; }
+
 .footer-links-wrap {
   overflow: hidden;
-  padding: 0em 0em 0em 6em;
+  padding: 0em 0em 0em 4em;
   font-size: 80%; }
   @media (min-width: 600px) {
     .footer-links-wrap {
@@ -211,7 +215,7 @@
     color: white; }
   .footer-links-wrap li {
     list-style-type: none;
-    padding: 0em 0em 0.8em 2em; }
+    padding: 0em 0em 0.8em 1em; }
 
 .left-footer-links {
   float: left; }
@@ -235,6 +239,12 @@
     padding: 0em 0.6em 0em 0em; }
   .social-links a:hover {
     color: white; }
+
+.brand-icon {
+  float: right; }
+
+.icon {
+  width: 5em; }
 
 /*************** WHAT'S NEW PAGE *******************/
 .bag {
@@ -287,5 +297,19 @@
   font-family: "Helvetica Neue";
   text-align: center;
   font-weight: 300; }
+
+.click-view {
+  border: 1px solid #ccc;
+  font-size: 0.8em;
+  padding: 0.3125em;
+  width: 10em;
+  margin: 1em auto 0em auto;
+  text-transform: uppercase;
+  color: black; }
+  .click-view a {
+    color: black; }
+
+.click-view:hover {
+  background-color: #64B1BB; }
 
 /*# sourceMappingURL=styles.css.map */
