@@ -155,11 +155,8 @@
     .pic-link-size {
       width: 29%; } }
 
-.pic-link-size:hover {
-  background-color: gray; }
-
 .pic-link-bottom {
-  width: 49%;
+  width: 53%;
   padding: 1em 0em 0em 0em; }
   @media (min-width: 600px) {
     .pic-link-bottom {
@@ -200,7 +197,7 @@
 
 .footer-links-wrap {
   overflow: hidden;
-  padding: 0em 0em 0em 4em;
+  padding: 0em 0em 0em 7em;
   font-size: 80%; }
   @media (min-width: 600px) {
     .footer-links-wrap {

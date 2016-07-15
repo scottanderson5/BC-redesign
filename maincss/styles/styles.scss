@@ -197,12 +197,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 	}
 }
 
-.pic-link-size:hover{
-	background-color: gray;
-}
-
 .pic-link-bottom{
-	width: 49%;
+	width: 53%;
 	padding: 1em 0em 0em 0em;
 
 	@media (min-width: 600px){
@@ -261,7 +257,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 .footer-links-wrap{
 	overflow: hidden;
-	padding: 0em 0em 0em 4em;
+	padding: 0em 0em 0em 7em;
 	font-size: 80%;
 
 	@media (min-width: 600px){
